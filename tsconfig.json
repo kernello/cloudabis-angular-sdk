@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "cloudabis-angular-sdk": [
+        "dist/cloudabis-angular-sdk"
+      ],
+      "cloudabis-angular-sdk/*": [
+        "dist/cloudabis-angular-sdk/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
